@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw-3-1"
+version = "0.1.0"
+description = ""
+authors = ["Timofey Volkov <volkow.timofey@ya.ru>"]
+readme = "README.md"
+packages = [{include = "hw_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+isort = "^5.12.0"
+pandas = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

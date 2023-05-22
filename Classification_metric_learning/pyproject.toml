@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "recognition"
+version = "0.1.0"
+description = ""
+authors = ["Timofey Volkov <volkow.timofey@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.7.1"
+torch = "^2.0.0"
+opencv-python = "^4.7.0.72"
+scikit-learn = "^1.2.2"
+torchvision = "^0.15.1"
+pytorch-metric-learning = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "HW_2_torch"
+version = "0.1.0"
+description = ""
+authors = ["Tim Volkov <volkow.timofey@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wemake-python-styleguide = "^0.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
